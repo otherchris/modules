@@ -1,0 +1,60 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 733056ea-fa8c-44fe-a8d2-069ece4bafb9)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 139.7 49.53) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 826e54f0-04ab-4e0f-aebf-249b64b4daeb)
+    (property "Sheetname" "AR (long)" (at 139.7 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ar_long.kicad_sch" (at 139.7 53.9246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "IS-1"
+        (path "/733056ea-fa8c-44fe-a8d2-069ece4bafb9" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 91.44 74.93) (size 12.7 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9b6ab725-0cef-4bb8-918a-7615580c5703)
+    (property "Sheetname" "Power" (at 91.44 74.2184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "../subschema/10_pin_power/10_pin_power.kicad_sch" (at 91.44 88.2146 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (pin "-12v" input (at 104.14 83.82 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid b997f6aa-78c1-4a40-b7c7-e28b0be4fbd7)
+    )
+    (pin "+12v" input (at 104.14 78.74 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 23d09588-f9d1-472c-a348-20e05b83f2c1)
+    )
+    (pin "GND" input (at 91.44 81.28 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 42cc0aa2-d8a5-4f93-acc9-9b2411789ee0)
+    )
+    (instances
+      (project "IS-1"
+        (path "/733056ea-fa8c-44fe-a8d2-069ece4bafb9" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
