@@ -317,8 +317,8 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
-      "workbook_filename": ""
+      "model_mode": 1,
+      "workbook_filename": "IS-1.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -340,12 +340,12 @@
       "Power"
     ],
     [
-      "59e80d8a-79a3-48e2-8d81-de299652aa3f",
-      "Simulation"
+      "826e54f0-04ab-4e0f-aebf-249b64b4daeb",
+      "AR"
     ],
     [
-      "826e54f0-04ab-4e0f-aebf-249b64b4daeb",
-      "AR (long)"
+      "59e80d8a-79a3-48e2-8d81-de299652aa3f",
+      "Simulation"
     ]
   ],
   "text_variables": {}
