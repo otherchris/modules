@@ -2,9 +2,12 @@ version 2
 1
 9
 .tran 1s 12s{return}{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
-2
+3
 1
-V(/AR__long_/SIGNAL_OUT)
+V(/AR/SIGNAL_OUT)
+ 
+1
+V(buffout)
  
 1
 V(pulsesim)
